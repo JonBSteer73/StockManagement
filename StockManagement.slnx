@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="StockManagement.API/StockManagement.API.csproj" />
+  <Project Path="StockManagement.DAL/StockManagement.DAL.csproj" />
+</Solution>
