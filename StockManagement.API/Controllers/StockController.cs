@@ -8,11 +8,8 @@ namespace StockManagement.API.Controllers
     [Route("[controller]")]
     public class StockController : ControllerBase
     {
-        private readonly StockDbContext dbContext;
-
-        public StockController(StockDbContext dbContext)
+        public StockController()
         {
-            this.dbContext = dbContext;
         }
 
         [HttpGet("list")]
